@@ -53,4 +53,4 @@ class EvenAndOdd extends Component {
   }
 }
 
-export { EvenAndOdd as Default };
+export { EvenAndOdd as default };

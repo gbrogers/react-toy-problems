@@ -48,6 +48,7 @@ class FilterObject extends Component {
     return (
       <div className="puzzleBox filterObjectPB">
         <h4>Filter Object</h4>
+        <span className="puzzleText">{`${this.state.animals}`}</span>
         <input
           className="inputLine"
           onChange={(event) => {
@@ -58,13 +59,12 @@ class FilterObject extends Component {
           className="confirmationButton"
           onClick={() => this.solveProblem(this.state.userInput)}
         ></button>
-        <span className="resultsBox">`${this.state.animals}`</span>
         <span className="resultsBox filterObjectRB">
-          `${this.state.filteredArray}`
+          {`${this.state.filteredArray}`}
         </span>
       </div>
     );
   }
 }
 
-export { FilterObject as Default };
+export { FilterObject as default };

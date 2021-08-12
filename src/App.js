@@ -3,7 +3,7 @@ import TopicBrowser from "./components/TopicBrowser/TopicBrowser.js";
 
 class App extends Component {
   render() {
-    <TopicBrowser />;
+    return <TopicBrowser />;
   }
 }
 
